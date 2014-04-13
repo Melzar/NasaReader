@@ -1,0 +1,126 @@
+﻿<phone:PhoneApplicationPage x:Name="RSSFeedSourcesPage1"
+    x:Class="NasaReader.RSSFeedSourcesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+	
+	<phone:PhoneApplicationPage.ApplicationBar>
+    <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" Opacity="0.9">
+        <shell:ApplicationBarIconButton x:Name="About" IconUri="/Assets/AppBar/questionmark.png" Text="About" Click="About_Click"/>
+    </shell:ApplicationBar>
+	</phone:PhoneApplicationPage.ApplicationBar>
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+    	<Grid.Background>
+    		<ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/5902.jpg" Opacity="0.1"/>
+    	</Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="StackPanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="RSS_Title_Application" Text="Nasa RSS reader" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="RSS_Tile_Page" Text="RSS feeds" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" Margin="12,0,12,0" Grid.RowSpan="5">
+        	<Grid x:Name="ContentPanel" Height="1279" Width="456">
+        		<StackPanel x:Name="BreakingNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,0,0,0" Tap="BreakingNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Breaking_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Source="/Assets/Images/NASA.png" Margin="0,0,0,-1"/>
+        			<TextBlock x:Name="Breaking_News" TextWrapping="Wrap" Text="Breaking News" Width="333" Height="70" FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+
+        		</StackPanel>
+        		<StackPanel x:Name="EducationNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,110,0,0" Tap="EducationNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Education_News_Image" HorizontalAlignment="Left" Height="91" Margin="0,0,0,-1" VerticalAlignment="Top" Width="90" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Education_News" HorizontalAlignment="Left" Margin="10,10,0,20" TextWrapping="Wrap" Width="332" FontSize="40">
+        				<Run Text="Education "/>
+        				<Run Text="News"/>
+        			</TextBlock>
+        		</StackPanel>
+        		<StackPanel x:Name="OnTheStation" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,220,0,0" Tap="OnTheStation_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="On_The_Station_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0,0,0,-1" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="On_The_Station" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="On The station" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" />
+        		</StackPanel>
+        		<StackPanel x:Name="KeplerMission" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,330,0,0" Tap="KeplerMission_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Kepler_Mission_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Kepler_Mission"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Kepler Mission" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="InternationalSpaceStation" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,440,0,0" Tap="InternationalSpaceStation_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Space_Report_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Space_Report"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Space Reports" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="SpaceStationNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,550,0,0" Tap="SpaceStationNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Space_News_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Space_News"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Space News" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="SolarNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,660,0,0" Tap="SolarNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Solar_News_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Solar_News"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Solar News" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="UniverseNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,770,0,0" Tap="UniverseNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Universe_News_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Universe_News"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Universe News" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="EarthNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,880,0,0" Tap="EarthNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Earth_News_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Earth_News"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Earth News" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="AeronauticsNews" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,990,0,0" Tap="AeronauticsNews_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Aeronautics_News_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Aeronautics_News"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Aeronautics News" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        		<StackPanel x:Name="HurricaneUpdate" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="436" Orientation="Horizontal" Margin="10,1100,0,0" Tap="HurricaneUpdate_Tap">
+        			<StackPanel.Background>
+        				<ImageBrush Stretch="Fill"/>
+        			</StackPanel.Background>
+        			<Image x:Name="Hurricane_Update_Image" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="90" Margin="0" Source="/Assets/Images/NASA.png"/>
+        			<TextBlock x:Name="Hurricane_Update"  HorizontalAlignment="Left" Margin="10,10,0,-1" TextWrapping="Wrap" Text="Hurricane Update" VerticalAlignment="Top" Width="332" Height="70" FontSize="40" LineHeight="8"/>
+        		</StackPanel>
+        	</Grid>
+        </ScrollViewer>
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,43 @@
+﻿<xapCache source="G:\WindowsPhoneApps\NasaReader\NasaReader\Bin\Debug\NasaReader_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="09/04/2014 19:26:14">
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\obj\Debug\NasaReader.dll" archivePath="NasaReader.dll" lastWriteTime="09/04/2014 19:26:13" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="31/07/2013 06:15:08" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\AppBar\questionmark.png" archivePath="Assets\AppBar\questionmark.png" lastWriteTime="01/01/2013 18:57:00" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\5902.jpg" archivePath="Assets\Images\5902.jpg" lastWriteTime="03/04/2014 00:32:06" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\5903.jpg" archivePath="Assets\Images\5903.jpg" lastWriteTime="30/03/2014 17:07:39" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\5942a.jpg" archivePath="Assets\Images\5942a.jpg" lastWriteTime="03/04/2014 00:42:37" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\NASA-Grid.png" archivePath="Assets\Images\NASA-Grid.png" lastWriteTime="06/04/2014 13:37:03" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\NASA.png" archivePath="Assets\Images\NASA.png" lastWriteTime="06/04/2014 13:31:53" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\panorama.jpg" archivePath="Assets\Images\panorama.jpg" lastWriteTime="04/04/2014 01:29:51" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Images\rss.png" archivePath="Assets\Images\rss.png" lastWriteTime="04/04/2014 23:21:38" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="06/04/2014 18:08:36" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="06/04/2014 18:09:14" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="06/04/2014 18:09:30" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="06/04/2014 18:09:50" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="06/04/2014 18:10:37" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="06/04/2014 18:08:16" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="06/04/2014 18:08:57" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ICSharpCode.SharpZLib.Phone.dll" archivePath="ICSharpCode.SharpZLib.Phone.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Controls.dll" archivePath="ImageTools.Controls.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.dll" archivePath="ImageTools.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Filtering.dll" archivePath="ImageTools.Filtering.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Bmp.dll" archivePath="ImageTools.IO.Bmp.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Gif.dll" archivePath="ImageTools.IO.Gif.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Png.dll" archivePath="ImageTools.IO.Png.dll" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Utils.dll" archivePath="ImageTools.Utils.dll" lastWriteTime="05/04/2014 23:05:36" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 02:41:02" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="01/01/2013 18:57:00" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\Newtonsoft.Json.6.0.1\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="31/03/2014 00:33:53" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\PhoneCodeContractsAssemblies.dll" archivePath="PhoneCodeContractsAssemblies.dll" lastWriteTime="05/04/2014 23:05:36" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Syndication.dll" archivePath="System.ServiceModel.Syndication.dll" lastWriteTime="26/08/2010 03:17:48" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25/09/2012 02:41:02" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.xml" archivePath="ImageTools.xml" lastWriteTime="05/04/2014 23:05:36" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Controls.xml" archivePath="ImageTools.Controls.xml" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Filtering.xml" archivePath="ImageTools.Filtering.xml" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Bmp.xml" archivePath="ImageTools.IO.Bmp.xml" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Gif.xml" archivePath="ImageTools.IO.Gif.xml" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Png.xml" archivePath="ImageTools.IO.Png.xml" lastWriteTime="05/04/2014 23:05:35" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Utils.xml" archivePath="ImageTools.Utils.xml" lastWriteTime="05/04/2014 23:05:36" />
+  <file source="G:\WindowsPhoneApps\NasaReader\packages\Newtonsoft.Json.6.0.1\lib\portable-net45+wp80+win8\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="31/03/2014 00:33:53" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Syndication.xml" archivePath="System.ServiceModel.Syndication.xml" lastWriteTime="26/02/2010 02:01:10" />
+  <file source="G:\WindowsPhoneApps\NasaReader\NasaReader\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="06/04/2014 18:10:37" />
+</xapCache>

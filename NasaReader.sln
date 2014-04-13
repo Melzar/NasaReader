@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NasaReader", "NasaReader\NasaReader.csproj", "{8ae456db-514e-4ed1-aa17-9d05bc6e352c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE456DB-514E-4ED1-AA17-9D05BC6E352C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
